@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="644.063" height="644.954" viewBox="0 0 644.063 644.954">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.538" y1="0.296" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#08b5ff"/>
+      <stop offset="1" stop-color="#1c1cd1"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_12" data-name="Group 12" transform="translate(-420.988 -196.989)" opacity="0.88">
+    <path id="Path_1" data-name="Path 1" d="M354.471,8c105.389,4.558,112.917,104.3,136.86,175.624.974,2.662,175.624,305.7,175.624,351.248,3.685,29.1-86.649-12.3-117.083-58.541-3.415,4.968,4.086,23.655-39.2,91.405-27.735,49.714-71.44,84.219-156.2,84.219-156.261,0-177.554-78.241-214.388-175.624C104.17,522.569,23,571.706,23,534.872c0-27.653,123.531-277.994,175.624-351.248C234.025,114.184,264.137,12.558,354.471,8Z" transform="translate(397.988 188.989)" opacity="0.44" fill="url(#linear-gradient)"/>
+    <line id="Line_1" data-name="Line 1" y1="226.847" transform="translate(772.345 614.095)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="2"/>
+    <line id="Line_2" data-name="Line 2" x2="87.812" transform="translate(772.504 613.1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="18.294" cy="18.294" r="18.294" transform="translate(835.865 592.475)" fill="#fff"/>
+    <line id="Line_3" data-name="Line 3" y1="146.353" transform="translate(801.616 687.272)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="2"/>
+    <line id="Line_4" data-name="Line 4" x2="43.906" transform="translate(801.774 686.277)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="18.294" cy="18.294" r="18.294" transform="translate(823.142 666.236)" fill="#fff"/>
+    <line id="Line_5" data-name="Line 5" y1="160.989" transform="translate(713.804 672.636)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="2"/>
+    <line id="Line_6" data-name="Line 6" x1="43.906" transform="translate(670.056 671.641)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="18.294" cy="18.294" r="18.294" transform="translate(652.047 653.885)" fill="#fff"/>
+  </g>
+</svg>

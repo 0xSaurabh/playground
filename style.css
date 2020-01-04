@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 95vw;
+    height: 14vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    padding: 4px;
+}
+
+#nav > #logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#nav > #logo > svg{
+    width: auto;
+    height: 10vh;
+}
+
+#Path_2 {
+    fill: rgba(255, 255, 255, 0);
+}
+
+
+/* SVG animation settings*/
+#right-hand{
+    animation: hi-reverse 1s ease-in forwards;
+    transform-origin: 5% 28%;
+    transform-box: fill-box;
+}
+
+#Group_23{
+    animation: hi-body-reverse 1s ease forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#logo:hover #right-hand{
+    animation: hi 1s ease-in forwards;
+    transform-origin: 5% 28%;
+    transform-box: fill-box;
+}
+
+#logo:hover #Group_23{
+    animation: hi-body 1s ease forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+/* SVG nodes ends*/
+
+#nav > .menu {
+    display: flex;
+}
+
+#nav > .menu > li{
+    margin: 4px;
+    font-size: 14px;
+    list-style: none;
+    font-family: 'Montserrat';
+    color: aliceblue;
+    background-color: rgb(6, 96, 165);
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#nav > .menu > li:hover{
+    transform: scale(1.12);
+}
+
+#hero-section{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 5% 1fr 40px 0.4%;
+    position: relative;
+    background: url('bg.svg') no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 14vh;
+}
+
+#hero-section > #hero-nodes {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18px;
+}
+
+#hero-section > #hero-nodes > #welcome-msg{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#hero-section > #hero-nodes > #welcome-msg > h1{
+    font-family: 'Lilita One';
+    font-size: 56px;
+    letter-spacing: 8px;
+}
+
+#hero-section > #hero-nodes > #hero-buttons > #join-us,
+#hero-section > #hero-nodes > #hero-buttons > #know-more{
+    background: #1CB00B;
+    width: 280px;
+    height: 48px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    transition: all 0.5s ease-out;
+    color: #FFF;
+    margin: 4px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+#hero-section > #hero-nodes > #hero-buttons > #know-more{
+    background: #0B68B0;
+}
+
+#hero-section > #hero-nodes > #hero-buttons > #join-us:hover,
+#hero-section > #hero-nodes > #hero-buttons > #know-more:hover{
+    transform: scale(1.06);
+}
+
+#watermark{
+    position: absolute;
+    bottom: -2px;
+    right: 0px;
+    height: 50%;
+    width: auto;
+    box-sizing: border-box;
+    transform: rotate(-18deg);
+    z-index: 2;
+}
+
+
+/* SVG animations */
+@keyframes hi{
+    from{
+        transform: rotateZ(0deg);
+    }  to {
+        transform: rotateZ(-90deg);
+    }
+}
+
+@keyframes hi-reverse{
+    from{
+        transform: rotateZ(-90deg);
+    }  to {
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes hi-body{
+    from{
+        transform: rotateZ(0deg);
+    }  to {
+        transform: rotateZ(-8deg);
+    }
+}
+
+@keyframes hi-body-reverse{
+    from{
+        transform: rotateZ(-8deg);
+    }  to {
+        transform: rotateZ(0deg);
+    }
+}
+
+/* SVG animation ends */
+
+#fixed-media{
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+
+.social-media {
+    margin:4px;
+    padding:0;
+}
+
+.social-media li{
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+.social-media li a{
+    background-image: url("social.svg");
+    display: block;
+    width: 40px;
+    height: 40px;
+    transition: .2s;
+    text-indent: -9999px;
+}
+
+.facebook a{
+    background-position: 0 -40px;
+}
+
+.github a{
+    background-position: 0 -80px;
+}
+
+.linkedin a{
+    background-position: 0 -120px;
+}
+
+.telegram a{
+    background-position: 0 -160px;
+}
+
+.twitter a{
+    background-position: 0 -200px;
+}
+
+.whatsapp a{
+    background-position: 0 -240px;
+}
+
+/* Hover State of Social Media */
+.instagram a:hover,
+.facebook a:hover,
+.github a:hover,
+.linkedin a:hover,
+.telegram a:hover,
+.twitter a:hover,
+.whatsapp a:hover{
+    transform: scale(1.2);
+}
